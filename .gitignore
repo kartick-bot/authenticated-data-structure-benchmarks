@@ -29,3 +29,27 @@ venv/
 # IDE
 .vscode/
 .idea/
+
+# Generated datasets
+*.pkl
+*.pickle
+*.jsonl
+
+# Experiment outputs and backups
+benchmark_runs/
+update_benchmark_backups/
+**/update_benchmark_backups/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Temporary files
+*.tmp
+*.log
+.DS_Store
+
+# Local credentials
+.env
+.env.*
