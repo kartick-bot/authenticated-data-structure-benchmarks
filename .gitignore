@@ -1,0 +1,31 @@
+# Generated Merkle and Verkle datasets
+*.pkl
+*.pickle
+*.jsonl
+
+# Benchmark backups
+update_benchmark_backups/
+**/update_benchmark_backups/
+**/backups/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+.DS_Store
+
+# Credentials and local configuration
+.env
+.env.*
+*.pem
+
+# IDE
+.vscode/
+.idea/

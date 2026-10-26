@@ -1,0 +1,76 @@
+{
+  "version": 1,
+  "branching_factor": 5,
+  "depth": 3,
+  "key": "50128822533189183290718419474",
+  "leaf_index": 5,
+  "old_text": "this is leaf 6",
+  "new_text": "this is leaf 6 | updated abcf8cf279d8cbac",
+  "old_root": "995ed05c6042b7c28e295d5656880e9b8a1d5cc5d71b89f24e1f51c8ca14a6cc",
+  "new_root": "3721cea8a175bde0844066f3e02ee580dc96e4cd22e58998e558e8f33b0ed312",
+  "proof": [
+    {
+      "child_position": 0,
+      "siblings": [
+        {
+          "position": 1,
+          "hash": "e388e52f0cf08ff208fe33377ce42d3888ce980f8dc9f232479a45941a95fea5"
+        },
+        {
+          "position": 2,
+          "hash": "346bc16ba9c9c5b79cfc90a1494269e50f1d36b0269b7bd9a788a46c51a106f9"
+        },
+        {
+          "position": 3,
+          "hash": "ef3ac377d03ae0069356e00dc0ca3188e39c7c421ac3ebb865d6485ace77a010"
+        },
+        {
+          "position": 4,
+          "hash": "0b20f3403b7e4b7849c125a47afa274442785b23a7cdb7493150fb13f2858b47"
+        }
+      ]
+    },
+    {
+      "child_position": 1,
+      "siblings": [
+        {
+          "position": 0,
+          "hash": "0bf6f047ce5b0be2d791009c382b92913d91369db76f5a90b8019cee46064a10"
+        },
+        {
+          "position": 2,
+          "hash": "e958b0a38199c4ff1892f0205bf0b00abab2119d0d6751d739c961f46c1f5e06"
+        },
+        {
+          "position": 3,
+          "hash": "3eb427c310a422a641c4eda7dbdaa9d2628fd44231bacb570089676b6bca5dd6"
+        },
+        {
+          "position": 4,
+          "hash": "cd44b0a67240757f936e36d2be33e48abaa2c273171fcdb47dacc67ddf025a4a"
+        }
+      ]
+    },
+    {
+      "child_position": 0,
+      "siblings": [
+        {
+          "position": 1,
+          "hash": "93587783c5dc50bb32b2b17e0498fcb6c2f50bcde2954ef73a0c9dce04b76211"
+        },
+        {
+          "position": 2,
+          "hash": "8214f66a157eaa180bb99b588b242bd8397f372643cdb891bc5c9fd4d9bc90cc"
+        },
+        {
+          "position": 3,
+          "hash": "6fa55a9a0c58cd40462e6c2849827de09b7fcb145e1ae8a4b0fff2be024de8dd"
+        },
+        {
+          "position": 4,
+          "hash": "d7dbfe4c32eb4127bf44c56bba5d81db7b272340417ae5d2d1d5630a1f8cb5bc"
+        }
+      ]
+    }
+  ]
+}
