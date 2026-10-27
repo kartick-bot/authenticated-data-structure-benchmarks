@@ -261,8 +261,8 @@ def run(per_type=500, seed=20261027, output=CSV_PATH):
     for sequence, (kind, query) in enumerate(queries, 1):
         t0 = time.perf_counter()
         if kind == "membership":
-            idx = state["key_to_index"].get(query)
-            if idx is None:
+            idx = bisect_left(state["keys"], query)
+            if idx >= len(state["keys"]) or state["keys"][idx] != query:
                 raise AssertionError("Unexpected absent membership query")
             search_result = (query, idx, texts[idx])
         else:
